@@ -1,6 +1,6 @@
 # foreign-fetch-middleware 
 
-> Foegin fetch express middleware.
+> Foreign Fetch Service Worker Middleware for Express.
 
 
 ## Install
@@ -31,6 +31,13 @@ app.use(foreignFetchMiddleware('./foreign-fetch.sw'));
 Type: `string`
 
 Path to your `foregin-fetch.sw`
+
+
+## TODO
+
+* Some `e2e` testing.
+
+* `'Origin-Trial'` header?
 
 
 ## License

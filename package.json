@@ -1,7 +1,7 @@
 {
   "name": "foreign-fetch-middleware",
   "version": "0.0.0",
-  "description": "Foegin fetch express middleware.",
+  "description": "Foreign Fetch (Service Worker) Middleware for Express.",
   "license": "MIT",
   "repository": "hemanth/foreign-fetch-middleware",
   "author": {
@@ -19,14 +19,11 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "express",
+    "foreign-fetch",
+    "service-worker",
+    "middleware"
   ],
   "dependencies": {},
-  "devDependencies": {
-    "ava": "^0.15.2",
-    "xo": "^0.16.0"
-  },
-  "xo": {
-    "esnext": true
-  }
+  "devDependencies": {}
 }
