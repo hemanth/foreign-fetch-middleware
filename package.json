@@ -1,6 +1,6 @@
 {
   "name": "foreign-fetch-middleware",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Foreign Fetch (Service Worker) Middleware for Express.",
   "license": "MIT",
   "repository": "hemanth/foreign-fetch-middleware",
