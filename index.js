@@ -1,6 +1,7 @@
 'use strict';
+var fileExists = require('fs').exists;
 module.exports = FSWpath => {
-  fs.exists(FSWpath, (exists) => {
+  fileExists(FSWpath, (exists) => {
     if (exists) {
       return (req, res, next) => {
         res.setHeader('Link', `</${FSWpath}>; rel="serviceworker"`);

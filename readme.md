@@ -1,6 +1,6 @@
 # foreign-fetch-middleware 
 
-> Foreign Fetch Service Worker Middleware for Express.
+> Foreign Fetch (Service Worker) Middleware for Express.
 
 
 ## Install
