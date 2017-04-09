@@ -7,7 +7,7 @@ module.exports = FSWpath => (req, res, next) => {
         res.setHeader('Access-Control-Allow-Origin', '*');
         next();
     } else {
-      throw new Error(`SW NOT FOUND! Expecting a service work at: ${path}`);
+      throw new Error(`SW NOT FOUND! Expecting a service work at: ${FSWpath}`);
     }
   });
 };
